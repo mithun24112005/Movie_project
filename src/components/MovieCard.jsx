@@ -8,8 +8,14 @@ const MovieCard = ({movie}) => {
 
     function handleonclick(event) {
         event.preventDefault()
-        if(favorite) removefavorites(movie.id)
-        else addtofavorites(movie)
+        if(favorite) {
+            removefavorites(movie.id)
+            alert(`${movie.title} removed from favorites`)
+        }
+        else {
+            addtofavorites(movie)
+            alert(`${movie.title} added to favorites`)
+        }
     }
     
   return (
