@@ -1,7 +1,7 @@
 import React from 'react'
-import Home from './pages/home';
+import Home from './pages/Home';
 import {Routes,Route} from "react-router-dom"
-import Favorites from './pages/favorites';
+import Favorites from './pages/Favorites';
 import NavBar from './components/NavBar';
 import { MovieProvider } from './contexts/MovieContext';
 import "./css/App.css"
