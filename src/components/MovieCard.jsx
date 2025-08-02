@@ -1,5 +1,5 @@
 import React from 'react'
-import { useMovieContext } from '../contexts/MovieContext'
+import { useMovieContext } from '../contexts/MovieContext.jsx'
 import "../css/MovieCard.css"
 
 const MovieCard = ({movie}) => {
